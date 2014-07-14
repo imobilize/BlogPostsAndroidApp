@@ -12,3 +12,13 @@ The home activity is built of fragments. It contains two menus, a slide menu and
 With the subscribe form you can register to receive notifications everytime a new article is published on the website.
 You only have to choose your favourite categories and press Subscribe! Once a new article is published, you'll be
 inmediately notified with a message containing the name of the new article and the related category/ies. You'll see the application's icon displayed in the notification bar, and then the message with the new article information. Clicking on the message you'll be lead directly to detailed view of the new article.
+
+DEPENDENCIES
+============
+
+* volley.jar
+* gcm.jar
+
+
+
+
