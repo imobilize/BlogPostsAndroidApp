@@ -1,7 +1,7 @@
 BlogPostsAndroidApp
 ===================
 
-This is the Android application corresponding to the website BlogPosts.
+This is the Android application corresponding to the website [BlogPosts](https://github.com/imobilize/BlogPostsWeb).
 
 With this Android application you can read the articles published in the website, and also register to be kept up to date of the new articles published under your favourite categories.
 
