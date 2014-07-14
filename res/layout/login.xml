@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/**
+* Copyright 2014 iMobilize Ltd.
+*
+* Licensed under the Apache License, Version 2.0 (the "License"); you may
+* not use this file except in compliance with the License. You may obtain
+* a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+* WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+* License for the specific language governing permissions and limitations
+* under the License.
+*/
+-->
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff" >
+
+      <!-- Header  Starts -->
+
+      <LinearLayout
+          android:id="@+id/header"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:paddingBottom="10dip"
+          android:paddingTop="10dip" >
+
+          <!-- Logo Start -->
+
+          <ImageView
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:src="@drawable/logo" />
+
+          <!-- Logo Ends -->
+      </LinearLayout>
+
+   
+
+      <LinearLayout
+          android:id="@+id/linearLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/header"
+          android:orientation="vertical"
+          android:padding="20dip" 
+          android:paddingBottom="50dip" >      
+          
+       <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:layout_marginBottom="10dip"
+              android:gravity="center"
+              android:text="@string/desc" 
+              android:textColor="#372c24" />
+          
+          
+           <LinearLayout
+               android:id="@+id/linearLayoutCheckBox"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"               
+               android:paddingTop ="10dip" >
+
+               <CheckBox
+                   android:id="@+id/checkbox_music"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"                  
+                   android:text="@string/cat_music" />
+
+               <CheckBox
+                   android:id="@+id/checkbox_technology"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"                  
+                   android:text="@string/cat_technology" />
+           </LinearLayout>
+	     
+         <LinearLayout
+             android:id="@+id/linearLayoutCheckBox2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingTop ="10dip" >
+
+             <CheckBox
+                 android:id="@+id/checkbox_animals"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_animals" />
+
+             <CheckBox
+                 android:id="@+id/checkbox_fashion"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_fashion" />
+         </LinearLayout>
+         
+         <LinearLayout
+             android:id="@+id/linearLayoutCheckBox3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingTop ="10dip" >
+
+             <CheckBox
+                 android:id="@+id/checkbox_nature"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_nature" />
+
+             <CheckBox
+                 android:id="@+id/checkbox_travel"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_travel" />
+         </LinearLayout>
+         
+         <LinearLayout
+             android:id="@+id/linearLayoutCheckBox4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingTop ="10dip" >
+
+             <CheckBox
+                 android:id="@+id/checkbox_beauty"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_beauty" />
+
+             <CheckBox
+                 android:id="@+id/checkbox_others"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"                
+                 android:text="@string/cat_others" />
+         </LinearLayout>
+	     
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/btnRegister"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/linearLayout1"
+          android:layout_marginLeft="25dp"
+          android:layout_marginRight="25dp"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/registerbutton"
+          android:text="@string/register" />
+
+  </RelativeLayout>
+</ScrollView>

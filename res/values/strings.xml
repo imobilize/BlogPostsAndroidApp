@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BLOGPOSTS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="title_activity_article_detail">ArticleDetailActivity</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Subscribe</item>
+        <item >Info</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_subscribe</item>
+        <item>@drawable/info</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="button_text">Button</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_animals">Animals</string>
+    <string name="cat_technology">Technology</string>
+    <string name="cat_fashion">Fashion</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="cat_nature">Nature</string>
+    <string name="cat_travel">Travel</string>
+    <string name="cat_beauty">Beauty</string>
+    <string name="cat_others">Others</string>
+    <string name="desc">Select one or more categories in order to subscribe for receiving notifications when a new articles has been posted.</string>
+ 	<string name="info_desc">With our application you can stay on top of the latest happenings around the world of entertainment. We scan everything so you dont have to. Subscribe to receive the latest news from us.</string>
+    
+</resources>
