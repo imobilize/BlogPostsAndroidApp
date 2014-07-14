@@ -16,8 +16,8 @@ inmediately notified with a message containing the name of the new article and t
 DEPENDENCIES
 ============
 
-* Volley
 * Google Cloud Messaging (GCM)
+* Volley
 
 LICENSE
 =======
